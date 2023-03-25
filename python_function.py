@@ -31,19 +31,19 @@ def pascal(n):
         print(row)
 
 
-# Testing max_num()
-print(max_num(5, 9, 3))  # prints 9
+# Testing max num
+print(max_num(5, 9, 3)) 
 
-# Testing mult_list()
-print(mult_list([2, 4, 6]))  # prints 48
+# Testing multiple list
+print(mult_list([2, 4, 6])) 
 
-# Testing rev_string()
-print(rev_string("hello"))  # prints "olleh"
+# Testing reverse
+print(rev_string("hello")) 
 
-# Testing num_within()
-print(num_within(3, 2, 4))  # prints True
-print(num_within(3, 1, 3))  # prints True
-print(num_within(10, 2, 5))  # prints False
+# Testing numbers  within
+print(num_within(3, 2, 4)) 
+print(num_within(3, 1, 3)) 
+print(num_within(10, 2, 5)) 
 
-# Testing pascal()
-pascal(5)  # prints first 5 rows of Pascal's triangle
+# Testing pascal
+pascal(5) 
